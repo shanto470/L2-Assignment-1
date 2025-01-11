@@ -9,6 +9,7 @@ body {
   max-width: 1280px;
   font-family: "Fira Sans", serif;
   margin: auto;
+  background-color: #f5f5f5;
 }
 
 .navbar {
@@ -61,4 +62,172 @@ body {
   background-color: #006a50;
   color: white;
   border: none;
+}
+
+/* vision section */
+.vision-section {
+  margin-top: 80px;
+  margin-bottom: 32px;
+}
+.primary-heading {
+  color: #0e0e0e;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+.para {
+  color: #535353;
+  line-height: 24px;
+}
+.vision-cards {
+  display: flex;
+  gap: 24px;
+  margin: 32px 0px 32px 0px;
+}
+.vision-card-1 {
+  background-color: #d5e1f5;
+  width: 410px;
+  padding: 32px;
+  border-radius: 16px;
+}
+.vision-card-2 {
+  background-color: #c6e4d6;
+  width: 410px;
+  padding: 32px;
+  border-radius: 16px;
+}
+.vision-card-3 {
+  background-color: #f7ebcf;
+  width: 410px;
+  padding: 32px;
+  border-radius: 16px;
+}
+.vision-card-heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #36383c;
+  margin: 24px 0px 12px 0px;
+}
+.vision-btn-1 {
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #5490f5;
+  color: white;
+  font-weight: 600;
+  margin-top: 24px;
+}
+.vision-btn-2 {
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #09a15c;
+  color: white;
+  font-weight: 600;
+  margin-top: 48px;
+}
+.vision-btn-3 {
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #ffc239;
+  color: white;
+  font-weight: 600;
+  margin-top: 24px;
+}
+/* Recent news section */
+.news-card {
+  display: flex;
+  gap: 32px;
+  background-color: white;
+  border-radius: 24px;
+  padding: 48px;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+.satelite {
+  height: 306px;
+  width: 408px;
+  border-radius: 24px;
+}
+.satelite-head {
+  font-weight: bold;
+  font-size: 32px;
+  color: #3e3e3e;
+}
+.al-jazeera {
+  width: 134px;
+  height: 40px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.date-container {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.read-btn {
+  background-color: #006a50;
+  border: none;
+  padding: 13px 26px;
+  border-radius: 8px;
+  color: white;
+  margin-top: 32px;
+}
+
+/* donate section */
+.donate-section {
+  margin-top: 56px;
+}
+.donate-heading {
+  text-align: center;
+}
+.donate-cards {
+  /* text-align: center; */
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.donate-amount {
+  color: #0e0e0ed2;
+  font-weight: 700;
+  font-size: 40px;
+  border: 2px solid #dbdbdb;
+  border-radius: 16px;
+  padding: 40px;
+  background-color: white;
+}
+.donate-amount-ex {
+  color: #0e0e0ed2;
+  font-weight: 700;
+  font-size: 40px;
+  border: 2px solid #dbdbdb;
+  border-radius: 16px;
+  padding: 40px;
+  background-color: #c6e4d6;
+}
+.donate-input {
+  padding: 20px 422px;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  margin-bottom: 32px;
+  color: #dbdbdb;
+  font-size: 20px;
+  border: none;
+  border-bottom: 2px solid #dbdbdb;
+}
+
+.done-btn {
+  background-color: #006a50;
+  border: none;
+  padding: 17px 34px;
+  border-radius: 8px;
+  color: white;
+  margin-top: 32px;
+  display: flex;
+  margin: auto;
 }
