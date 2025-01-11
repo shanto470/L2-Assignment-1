@@ -31,6 +31,9 @@ body {
   color: #006a50;
   border: 2px solid #006a50;
 }
+.sign-btn:hover {
+  background-color: #c6e4d6;
+}
 
 /* Banner section starts here */
 .banner-section {
@@ -62,6 +65,9 @@ body {
   background-color: #006a50;
   color: white;
   border: none;
+}
+.banner-btn:hover {
+  background-color: #0ba07b;
 }
 
 /* vision section */
@@ -117,6 +123,9 @@ body {
   font-weight: 600;
   margin-top: 24px;
 }
+.vision-btn-1:hover {
+  background-color: #0851ce;
+}
 .vision-btn-2 {
   padding: 11px 20px;
   border-radius: 8px;
@@ -126,6 +135,9 @@ body {
   font-weight: 600;
   margin-top: 48px;
 }
+.vision-btn-2:hover {
+  background-color: #006a50;
+}
 .vision-btn-3 {
   padding: 11px 20px;
   border-radius: 8px;
@@ -134,6 +146,9 @@ body {
   color: white;
   font-weight: 600;
   margin-top: 24px;
+}
+.vision-btn-3:hover {
+  background-color: #c28c0c;
 }
 /* Recent news section */
 .news-card {
@@ -287,9 +302,17 @@ body {
 .position {
   color: #0e0e0e8f;
 }
-/* .bg {
-  background-image: url(assets/quote-bg.png);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-position-y: -30px;
-} */
+
+/* hover part */
+.donate-amount:hover {
+  background-color: #c6e4d6;
+}
+.done-btn:hover {
+  background-color: #09a15c;
+}
+.sub-btn:hover {
+  background-color: #09a15c;
+}
+.read-btn:hover {
+  background-color: #09a15c;
+}
